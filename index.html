@@ -55,14 +55,24 @@
             <div class="form col-md-6">
                 <p>If old-fashioned email is more your thing, drop me a line via this handy email form and i'll be sure to get back to you as soon as possible</p>
                 <form action="">
-
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">Email:</label>
+                        <input type="text" name="user_email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="message">Message:</label>
+                        <textarea name="message" rows="8" cols="80"></textarea>
+                    </fieldset>
+                <div class="button">
+                    <button type="submit" name="submit"><i class="fa fa-envelope-o"></i> Send</button>
+                </div>
                 </form>
             </div>
         </div>
-
-        <footer>
-            <p>yep, we reached the end of the road, brother!</p>
-        </footer>
 
 
     </div>
