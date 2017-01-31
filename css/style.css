@@ -2,4 +2,71 @@
 
 body{
   margin: 100px auto;
+  color: white;
+  background-color: #adb8db
 }
+
+
+/*#home styles*/
+ nav {
+  color: #adb8db;
+ }
+
+.me {
+  max-width: 40%;
+  max-height: 40%;
+  margin: 20px;
+}
+
+.jumbotron {
+  padding: 50px;
+  background-color: #1e3a6b;
+}
+
+.jumbotron p {
+  margin-top: 75px;
+}
+
+.jumbotron h3 {
+  margin: 25px;
+
+}
+
+/*#Project styles*/
+
+#Projects{
+
+}
+
+#Projects img {
+  max-width: 75%;
+  max-height: 75%;
+  margin: 10px;
+  padding: 20px;
+}
+
+#Projects h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ #Projects h3 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.project {
+ text-align: center;
+ margin: 50px 0 50px 0;
+ background-color: #1e3a6b;
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+}
+
+.project p {
+  margin: 25px;
+}
+
+
+/*#ContactMe Styles*/

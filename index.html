@@ -13,67 +13,73 @@
 
 <body>
     <div class="container-main">
-        <div class="container-fluid" id='home'>
+        <div class="container" id='Home'>
             <nav class='navbar navbar-toggleable-md fixed-top bg-inverse justify-content-end'>
                 <a href="" class="navbar-brand justify-content-begin">TEST</a>
                 <a href="#Home" class='nav-link active'>Home</a>
                 <a href="#Projects" class='nav-link'>Projects</a>
-                <a href="#Contact" class='nav-link'>Contact Me</a>
+                <a href="#ContactMe" class='nav-link'>Contact Me</a>
             </nav>
-            <div class="Description jumbotron">
-                <img src="" alt="">
-                <p class='lead'>Junior Front-End Developer with exposure to Jquery, Javascript, Ruby, as well as Ruby on Rails. Hopelessly devoted to learning, growning, and the Los Angeles Galaxy. Nice to meet you </p>
-                    <h3>Johnathon Sykes - Web Developer - Technical Support Analyst</h3>
+            <div class="Description container-fluid jumbotron">
+                <img src="img/me.jpg" alt="" class='me pull-left'>
+                <p class='lead'>Junior Front-End Developer with exposure to Jquery, Javascript, Ruby, as well as Ruby on Rails. Hopelessly devoted to learning, growning, and the Los Angeles Galaxy. Nice to meet you</p>
+                <h3>Johnathon Sykes<br />Web Developer - Technical Support Analyst</h3>
+                <div class="clearfix"></div>
             </div>
         </div>
     <hr>
-        <div class="container-fluid" id="Projects">
+        <div class="container" id="Projects">
             <h1 class="sectionheader">Projects</h1>
-            <div class="col-md-4 col-lg-12 project">
-                <a href="https://johndsykes86.github.io/TMP-OnePageSite/" target="_blank"><img src="img/tmp.png" alt="" class='project-img img-responsive' id='OnePageSite'></a>
-                <p>This website was built using Bootstrap and is supposed to mimic a marketing/e-commerce business page.</p>
+            <div class="row">
+                <div class="col-md-4 col-lg-12 project">
+                    <a href="https://johndsykes86.github.io/TMP-OnePageSite/" target="_blank"><img src="img/tmp.png" alt="" class='project-img img-responsive' id='OnePageSite'></a>
+                    <p>This website was built using Bootstrap and is supposed to mimic a marketing/e-commerce business page.</p>
+                </div>
+                <div class=" col-md-4 col-lg-12 project">
+                    <a href="https://johndsykes86.github.io/EtchASketch/" target="_blank"><img src="img/etch.png" alt="" class='project-img img-responsive' id='etchasketch'></a>
+                    <p>A simple project built with Jquery and Javascript, the Etch-a-Sketch of our childhood...now with crazy colors!!!</p>
+                </div>
+                <div class=" col-md-4 col-lg-12 project">
+                    <a href="https://johndsykes86.github.io/google_homepage/" target="_blank"><img src="img/google.png" alt="" class='project-img google img-responsive' id='google-clone'></a>
+                    <p>A mock-up of the Google homepage. Please note that the search bar is only for show, don't expect any search results.</p>
             </div>
-            <div class="col-md-4 col-lg-12 project">
-                <a href="https://johndsykes86.github.io/EtchASketch/" target="_blank"><img src="img/etch.png" alt="" class='project-img img-responsive' id='etchasketch'></a>
-                <p>A simple project built with Jquery and Javascript, the Etch-a-Sketch of our childhood...now with crazy colors!!!</p>
-            </div>
-            <div class="col-md-4 col-lg-12 project">
-                <a href="https://johndsykes86.github.io/google_homepage/" target="_blank"><img src="img/google.png" alt="" class='project-img google img-responsive' id='google-clone'></a>
-                <p>A mock-up of the Google homepage. Please note that the search bar is only for show, don't expect any search results.</p>
             </div>
 
             <h3 class="sectionfooter">More projects coming soon!</h3>
             </div>
             <hr>
-            <div class="container-fluid" id="ContactMe">
+            <div class="container" id="ContactMe">
                 <h1>Contact information</h1>
-                <div class="links col-md-6">
-                    <p>Here's where you can find me on the Internet.</p>
-                    <p><a href="http://twitter.com/SeeSykescode" target="_blank"><i class="fa fa-twitter fa-5x" aria-hidden='true'></i></a>Twitter</p>
-                    <p><a href="http://github.com/johndsykes86" target="_blank"><i class="fa fa-github fa-5x" aria-hidden='true'></i></a>Github</p>
-                    <p><a href="http://twitch.com/mrjsykes" target="_blank"><i class="fa fa-twitch fa-5x" aria-hidden='true'></i></a>Twitch</p>
-                    <p><a href="http://codepen.io/johndsykes86" target='_blank'><i class="fa fa-codepen fa-5x" aria-hidden='true'></i></a>Codepen</p>
+                <div class="row">
+                    <div class="links col-md-6">
+                        <p>Here's where you can find me on the Internet.</p>
+                        <p><a href="http://twitter.com/SeeSykescode" target="_blank"><i class="fa fa-twitter fa-5x" aria-hidden='true'></i></a>Twitter</p>
+                        <p><a href="http://github.com/johndsykes86" target="_blank"><i class="fa fa-github fa-5x" aria-hidden='true'></i></a>Github</p>
+                        <p><a href="http://twitch.com/mrjsykes" target="_blank"><i class="fa fa-twitch fa-5x" aria-hidden='true'></i></a>Twitch</p>
+                        <p><a href="http://codepen.io/johndsykes86" target='_blank'><i class="fa fa-codepen fa-5x" aria-hidden='true'></i></a>Codepen</p>
+                    </div>
+                    <div class="form col-md-6">
+                        <p>If old-fashioned email is more your thing, drop me a line via this handy email form and i'll be sure to get back to you as soon as possible</p>
+                        <form action="">
+                            <fieldset>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name">
+                            </fieldset>
+                            <fieldset>
+                                <label for="email">Email:</label>
+                                <input type="text" name="user_email">
+                            </fieldset>
+                            <fieldset>
+                                <label for="message">Message:</label>
+                                <textarea name="message" rows="8" cols="80"></textarea>
+                            </fieldset>
+                            <div class="button">
+                                <button type="submit" name="submit"><i class="fa fa-envelope-o"></i> Send</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form col-md-6">
-                    <p>If old-fashioned email is more your thing, drop me a line via this handy email form and i'll be sure to get back to you as soon as possible</p>
-                    <form action="">
-                        <fieldset>
-                            <label for="name">Name:</label>
-                            <input type="text" name="name">
-                        </fieldset>
-                        <fieldset>
-                            <label for="email">Email:</label>
-                            <input type="text" name="user_email">
-                        </fieldset>
-                        <fieldset>
-                            <label for="message">Message:</label>
-                            <textarea name="message" rows="8" cols="80"></textarea>
-                        </fieldset>
-                        <div class="button">
-                            <button type="submit" name="submit"><i class="fa fa-envelope-o"></i> Send</button>
-                        </div>
-                    </form>
-                </div>
+
             </div>
 
 
