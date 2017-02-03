@@ -7,26 +7,38 @@ body{
   box-sizing:border-box;
 }
 
+p {
+  font: 1em 'Raleway', sans-serif;
+}
+
+h1, h2, h3, {
+  font: 2em 'Open Sans', sans-serif;
+}
+
 
 /*#home styles*/
- nav {
+ .navbar{
   background-color: #1e3a6b;
  }
 
- nav a {
+ .navbar a {
    display: inline;
  }
 
 
- nav a:hover{
+ .navbar a:hover{
    background-color: white;
  }
+
+ /*________________________+*/
 
 .me {
   max-width: 40%;
   max-height: 40%;
   margin: 20px;
 }
+
+/*________________________+*/
 
 .jumbotron {
   padding: 50px;
@@ -82,29 +94,54 @@ box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
 
 /*#ContactMe Styles*/
 
-.links  {
-  border-right: thick dotted;
+
+#ContactMe p {
+  margin: 30px 0 50px 0 ;
 }
 
-#ContactMe{
+#ContactMe h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+/*________________________*/
+
+.contactinfo {
   background-color: #1e3a6b;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
  -moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
  box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
 }
 
-#ContactMe p {
-  margin: 20px 0 50px 0 ;
+/*________________________+*/
+
+.links  {
+  border-right: thick dotted;
+
+}
+
+.links .row {
+  margin-right: 25px;
+}
+
+.col-md-6 a{
+  padding-bottom: 20px;
 }
 
 .links a {
-  padding: 30px;
+  padding:30px;
+  margin: 0 10px 10px 0;
   font-size: 30px;
-
 }
 
+.findme {
+  margin: 0 25px 100px 25px;
+}
+
+/*________________________+*/
+
 .contactform{
- margin-left:75px;
+ margin-left:25px;
 }
 
 .form input, textarea {
@@ -122,11 +159,11 @@ box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
 }
 
 .form input {
-  width: 300px;
+  width: 200px;
 }
 
 .form textarea {
-  width: 500px;
+  width: 300px;
 }
 
 .form button {
