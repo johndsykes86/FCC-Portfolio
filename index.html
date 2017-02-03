@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body data-spy='scroll' data-target='.navbar'>
     <div class="container-main">
         <div class="container" id='Home'>
-            <nav class='navbar navbar-toggleable-md fixed-top bg-inverse justify-content-end'>
-                <a href="" class="navbar-brand justify-content-begin">TEST</a>
-                <a href="#Home" class='nav-link active'>Home</a>
+            <nav class='navbar navbar-toggleable-md fixed-top justify-content-end'>
+                <a href="#Home" class='nav-link active '>Home</a>
                 <a href="#Projects" class='nav-link'>Projects</a>
                 <a href="#ContactMe" class='nav-link'>Contact Me</a>
+                <div class="clearfix"></div>
             </nav>
             <div class="Description container-fluid jumbotron">
                 <img src="img/me.jpg" alt="" class='me pull-left'>
@@ -27,7 +27,7 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-    <hr>
+        <hr>
         <div class="container" id="Projects">
             <h1 class="sectionheader">Projects</h1>
             <div class="row">
@@ -37,57 +37,74 @@
                 </div>
                 <div class=" col-md-4 col-lg-12 project">
                     <a href="https://johndsykes86.github.io/EtchASketch/" target="_blank"><img src="img/etch.png" alt="" class='project-img img-responsive' id='etchasketch'></a>
-                    <p>A simple project built with Jquery and Javascript, the Etch-a-Sketch of our childhood...now with crazy colors!!!</p>
+                    <p class='text'>A simple project built with Jquery and Javascript, the Etch-a-Sketch of our childhood...now with crazy colors!!!</p>
                 </div>
                 <div class=" col-md-4 col-lg-12 project">
                     <a href="https://johndsykes86.github.io/google_homepage/" target="_blank"><img src="img/google.png" alt="" class='project-img google img-responsive' id='google-clone'></a>
                     <p>A mock-up of the Google homepage. Please note that the search bar is only for show, don't expect any search results.</p>
-            </div>
+                </div>
             </div>
 
             <h3 class="sectionfooter">More projects coming soon!</h3>
-            </div>
-            <hr>
-            <div class="container" id="ContactMe">
-                <h1>Contact information</h1>
-                <div class="row">
-                    <div class="links col-md-6">
-                        <p>Here's where you can find me on the Internet.</p>
-                        <p><a href="http://twitter.com/SeeSykescode" target="_blank"><i class="fa fa-twitter fa-5x" aria-hidden='true'></i></a>Twitter</p>
-                        <p><a href="http://github.com/johndsykes86" target="_blank"><i class="fa fa-github fa-5x" aria-hidden='true'></i></a>Github</p>
-                        <p><a href="http://twitch.com/mrjsykes" target="_blank"><i class="fa fa-twitch fa-5x" aria-hidden='true'></i></a>Twitch</p>
-                        <p><a href="http://codepen.io/johndsykes86" target='_blank'><i class="fa fa-codepen fa-5x" aria-hidden='true'></i></a>Codepen</p>
+        </div>
+        <hr>
+        <div class="container" id="ContactMe">
+            <h1>Contact information</h1>
+            <div class="row">
+                <div class="links col-md-5">
+                    <p>Here's where you can find me on the Internet.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="http://twitter.com/SeeSykescode" target="_blank"><i class="fa fa-twitter fa-5x" aria-hidden='true'></i></a>
+                            <a href="http://github.com/johndsykes86" target="_blank"><i class="fa fa-github fa-5x" aria-hidden='true'></i></a>
+                        </div>
+
+                        <div class="col-md-6">
+                            <a href="http://twitch.com/mrjsykes" target="_blank"><i class="fa fa-twitch fa-5x" aria-hidden='true'></i></a>
+                            <a href="http://codepen.io/johndsykes86" target='_blank'><i class="fa fa-codepen fa-5x" aria-hidden='true'></i></a>
+                        </div>
+
                     </div>
-                    <div class="form col-md-6">
-                        <p>If old-fashioned email is more your thing, drop me a line via this handy email form and i'll be sure to get back to you as soon as possible</p>
-                        <form action="">
-                            <fieldset>
-                                <label for="name">Name:</label>
-                                <input type="text" name="name">
-                            </fieldset>
-                            <fieldset>
-                                <label for="email">Email:</label>
-                                <input type="text" name="user_email">
-                            </fieldset>
-                            <fieldset>
-                                <label for="message">Message:</label>
-                                <textarea name="message" rows="8" cols="80"></textarea>
-                            </fieldset>
-                            <div class="button">
-                                <button type="submit" name="submit"><i class="fa fa-envelope-o"></i> Send</button>
-                            </div>
-                        </form>
-                    </div>
+
                 </div>
 
+
+
+                <div class="form col-md-5">
+                    <p>If old-fashioned email is more your thing, drop me a line via this handy email form and i'll be sure to get back to you as soon as possible</p>
+                    <form action="">
+                        <fieldset>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name">
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email:</label>
+                            <input type="text" name="user_email">
+                        </fieldset>
+                        <fieldset>
+                            <label for="message">Message:</label>
+                            <textarea name="message" rows="8" cols="80"></textarea>
+                        </fieldset>
+                        <div class="button">
+                            <button type="submit" name="submit"><i class="fa fa-envelope-o"></i> Send</button>
+                        </div>
+                    </form>
+                </div>
             </div>
 
-
         </div>
+        <hr>
+        <footer>
+            <p>this is my footer. All rights are mine</p>
 
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        </footer>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 
 </html>

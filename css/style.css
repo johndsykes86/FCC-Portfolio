@@ -3,13 +3,23 @@
 body{
   margin: 100px auto;
   color: white;
-  background-color: #adb8db
+  background-color: #adb8db;
+  box-sizing:border-box;
 }
 
 
 /*#home styles*/
  nav {
-  color: #adb8db;
+  background-color: #1e3a6b;
+ }
+
+ nav a {
+   display: inline;
+ }
+
+
+ nav a:hover{
+   background-color: white;
  }
 
 .me {
@@ -21,6 +31,9 @@ body{
 .jumbotron {
   padding: 50px;
   background-color: #1e3a6b;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+ box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
 }
 
 .jumbotron p {
@@ -35,28 +48,25 @@ body{
 /*#Project styles*/
 
 #Projects{
-
+ text-align: center;
 }
 
 #Projects img {
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 50%;
+  max-height: 50%;
   margin: 10px;
   padding: 20px;
 }
 
 #Projects h1 {
-  text-align: center;
   margin-top: 50px;
 }
 
  #Projects h3 {
-  text-align: center;
   margin: 50px 0 50px 0;
 }
 
 .project {
- text-align: center;
  margin: 50px 0 50px 0;
  background-color: #1e3a6b;
  -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
@@ -65,8 +75,27 @@ box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
 }
 
 .project p {
-  margin: 25px;
+  margin: 0 auto 25px auto;
+  width: 500px;
 }
 
 
 /*#ContactMe Styles*/
+
+.links  {
+  border-right: thick dotted;
+}
+
+#ContactMe p {
+  margin: 20px 0 50px 0 ;
+}
+
+.links a {
+  padding: 30px;
+  font-size: 30px;
+
+}
+
+.form{
+ margin-left:75px;
+}
