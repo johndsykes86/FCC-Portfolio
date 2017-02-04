@@ -17,7 +17,7 @@ h1, h2, h3, {
 }
 
 footer {
-    border-top: 5px solid ;
+    border-top: 5px solid rgba(42, 62, 161, 1);
     background-color: #303642;
     height: 300px;
     width: auto;
@@ -168,6 +168,7 @@ footer {
     border: none;
     color: white;
     border-bottom: thick dotted;
+
 }
 
 .form label {
