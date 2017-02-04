@@ -1,186 +1,191 @@
 /*Project Styles*/
 
-body{
-  /*margin-top: 100px;*/
-  color: white;
-  background-color: #adb8db;
-  /*box-sizing:border-box;*/
-  /*position: relative;*/
+body {
+    margin-top: 100px;
+    color: white;
+    background-color: #adb8db;
+    /*box-sizing:border-box;*/
+    /*position: relative;*/
 }
 
 p {
-  font: 1em 'Raleway', sans-serif;
+    font: 1em 'Raleway', sans-serif;
 }
 
 h1, h2, h3, {
-  font: 2em 'Open Sans', sans-serif;
+    font: 2em 'Open Sans', sans-serif;
 }
 
-.div {
- background-color: #303642;
- height: 500px;
- width: auto;
- }
+footer {
+    border-top: 5px solid ;
+    background-color: #303642;
+    height: 300px;
+    width: auto;
+}
+
 
 /*#home styles*/
- .navbar{
-  background-color: #1e3a6b;
- }
 
- .navbar a {
-   display: inline;
-   color:white;
- }
+.navbar {
+    background-color: #303642;;
+}
+
+.navbar a {
+    display: inline;
+    color: white;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: rgba(42, 62, 161, 1);
+}
 
 
- .navbar a:hover, .navbar a:active{
-   background-color: rgba(42,62,161,1);
- }
-
- /*________________________+*/
+/*________________________+*/
 
 .me {
-  max-width: 40%;
-  max-height: 40%;
-  margin: 20px;
+    max-width: 40%;
+    max-height: 40%;
+    margin: 20px;
 }
+
 
 /*________________________+*/
 
 .jumbotron {
-  padding: 50px;
-  background-color: #1e3a6b;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
- -moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
- box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+    padding: 50px;
+    background-color: #303642;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
 }
 
 .jumbotron p {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .jumbotron h3 {
-  margin: 25px;
-
+    margin: 25px;
 }
+
 
 /*#Project styles*/
 
-#Projects{
- text-align: center;
+#Projects {
+    text-align: center;
 }
 
 #Projects img {
-  max-width: 50%;
-  max-height: 50%;
-  margin: 10px;
-  padding: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 10px;
+    padding: 20px;
 }
 
 #Projects h1 {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
- #Projects h3 {
-  margin: 50px 0 50px 0;
+#Projects h3 {
+    margin: 50px 0 50px 0;
 }
 
 .project {
- margin: 50px 0 50px 0;
- background-color: #1e3a6b;
- -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+    margin: 50px 0 50px 0;
+    background-color: #303642;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
 }
 
 .project p {
-  margin: 0 auto 25px auto;
-  width: 500px;
+    margin: 0 auto 25px auto;
+    width: 500px;
 }
 
 
 /*#ContactMe Styles*/
 
-
 #ContactMe {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #ContactMe p {
-  margin: 30px 0 50px 0 ;
+    margin: 30px 0 50px 0;
 }
 
 #ContactMe h1 {
-  text-align: center;
-  margin: 25px;
+    text-align: center;
+    margin: 25px;
 }
+
 
 /*________________________*/
 
 .contactinfo {
-  background-color: #1e3a6b;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
- -moz-box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
- box-shadow: 10px 10px 5px 0px rgba(42,62,161,1);
+    background-color: #303642;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
+    box-shadow: 10px 10px 5px 0px rgba(42, 62, 161, 1);
 }
+
 
 /*________________________+*/
 
-.links  {
-  border-right: thick dotted;
-
+.links {
+    border-right: thick dotted;
 }
 
 .links .row {
-  margin-right: 25px;
+    margin-right: 25px;
 }
 
-.col-md-6 a{
-  padding-bottom: 20px;
+.col-md-6 a {
+    padding-bottom: 20px;
 }
 
 .links a {
-  padding:30px;
-  margin: 0 10px 10px 0;
-  font-size: 30px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    font-size: 30px;
 }
 
 .findme {
-  margin: 0 25px 100px 25px;
+    margin: 0 25px 100px 25px;
 }
+
 
 /*________________________+*/
 
-.contactform{
- margin-left:25px;
+.contactform {
+    margin-left: 25px;
 }
 
 .form input, textarea {
-  background-color: #1e3a6b;
-  margin: 20px;
-  padding: 2px;
-  outline: none;
-  border: none;
-  color: white;
-  border-bottom: thick dotted;
+    background-color: #303642;
+    margin: 20px;
+    padding: 2px;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: thick dotted;
 }
 
 .form label {
-  margin: 20px;
+    margin: 20px;
 }
 
 .form input {
-  width: 200px;
+    width: 200px;
 }
 
 .form textarea {
-  width: 300px;
+    width: 300px;
 }
 
 .form button {
-  border: none;
-  width: 100px;
-  padding: 10px;
-  margin: 20px;
-  background-color: white;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
 }
